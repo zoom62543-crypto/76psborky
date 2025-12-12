@@ -1548,3 +1548,178 @@ body::after {
         font-size: 4rem;
     }
 }
+
+/* ============================================
+   DETAIL SECTIONS - How We Work Page
+   ============================================ */
+.detail-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.detail-section-reverse {
+    direction: rtl;
+}
+
+.detail-section-reverse > * {
+    direction: ltr;
+}
+
+.detail-image {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.detail-content h3 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.detail-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.detail-list li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #555;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-list li:last-child {
+    border-bottom: none;
+}
+
+.detail-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #ff9b24;
+    font-weight: bold;
+}
+
+.detail-note {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #fff5eb;
+    border-radius: 10px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Info Grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-box {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(255, 155, 36, 0.1);
+}
+
+.info-box-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1.25rem;
+    background: linear-gradient(135deg, #fff5eb 0%, #ffe8d4 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff9b24;
+}
+
+.info-box h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.15rem;
+    color: #333;
+    margin-bottom: 0.75rem;
+}
+
+.info-box p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Highlight Box */
+.highlight-box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: linear-gradient(135deg, #ff9b24 0%, #ffb347 100%);
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    max-width: 800px;
+    margin: 3rem auto 0;
+    color: white;
+}
+
+.highlight-icon {
+    font-size: 3rem;
+    flex-shrink: 0;
+}
+
+.highlight-content h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.highlight-content p {
+    opacity: 0.95;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .detail-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .detail-section-reverse {
+        direction: ltr;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .highlight-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 2rem 1.5rem;
+    }
+}

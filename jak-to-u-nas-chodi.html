@@ -65,51 +65,74 @@
     </div>
 
     <main class="main-content">
-        <!-- Overview Section -->
+        <!-- Overview Section with Feature Cards -->
         <div class="section">
             <div class="container">
                 <h2 class="section-title">Přehled táborového zázemí</h2>
                 <div class="section-divider"></div>
                 
-                <div class="photo-grid">
-                    <div class="photo-card">
-                        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&h=400&fit=crop" alt="Ubytování ve stanech">
-                        <div class="photo-card-overlay">
-                            <h3>Ubytování</h3>
-                            <p>Podsadové stany s dřevěnou podlahou a pohodlnými lůžky</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 18L12 6l9 12H3z"/>
+                                <path d="M12 6v12"/>
+                            </svg>
                         </div>
+                        <h3>Ubytování</h3>
+                        <p>Podsadové stany s dřevěnou podlahou, pohodlnými lůžky a úložným prostorem</p>
+                        <div class="feature-number">01</div>
                     </div>
-                    <div class="photo-card">
-                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop" alt="Táborová strava">
-                        <div class="photo-card-overlay">
-                            <h3>Stravování</h3>
-                            <p>5 vydatných jídel denně, čerstvě připravených</p>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                                <line x1="6" y1="1" x2="6" y2="4"/>
+                                <line x1="10" y1="1" x2="10" y2="4"/>
+                                <line x1="14" y1="1" x2="14" y2="4"/>
+                            </svg>
                         </div>
+                        <h3>Stravování</h3>
+                        <p>5 vydatných jídel denně připravených zkušenými kuchařkami z čerstvých surovin</p>
+                        <div class="feature-number">02</div>
                     </div>
-                    <div class="photo-card">
-                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop" alt="Příroda">
-                        <div class="photo-card-overlay">
-                            <h3>Lokalita</h3>
-                            <p>Krásný kraj Vysočina obklopený lesy</p>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
                         </div>
+                        <h3>Lokalita</h3>
+                        <p>Krásný kraj Vysočina obklopený lesy s nedalekým rybníkem na koupání</p>
+                        <div class="feature-number">03</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Accommodation Section -->
+        <!-- Accommodation Detail -->
         <div class="section">
             <div class="container">
-                <h2 class="section-title">Ubytování</h2>
+                <h2 class="section-title">Ubytování v detailu</h2>
                 <div class="section-divider"></div>
                 
-                <div style="max-width: 800px; margin: 0 auto;">
-                    <div class="info-card-with-image">
-                        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=300&h=300&fit=crop" alt="Táborový stan">
-                        <div class="card-content">
-                            <h3>Spaní</h3>
-                            <p>Děti jsou ubytovány v tradičních podsadových stanech s pevnou podlahou. Každý stan má 2 samostatná lůžka s pěnovými matracemi a úložnými policemi. Stany jsou zakryty nepromokavými plachtami pro úplnou ochranu před počasím.</p>
-                        </div>
+                <div class="detail-section">
+                    <div class="detail-image">
+                        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&h=400&fit=crop" alt="Táborový stan">
+                    </div>
+                    <div class="detail-content">
+                        <h3>🏕️ Podsadové stany</h3>
+                        <ul class="detail-list">
+                            <li>Tradiční podsadové stany s pevnou dřevěnou podlahou</li>
+                            <li>2 samostatná lůžka s pěnovými matracemi</li>
+                            <li>Úložné police pro osobní věci</li>
+                            <li>Nepromokavé plachty pro ochranu před počasím</li>
+                            <li>Dostatek prostoru pro pohodlný pobyt</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -121,18 +144,37 @@
                 <h2 class="section-title">Hygiena a zázemí</h2>
                 <div class="section-divider"></div>
                 
-                <div style="max-width: 800px; margin: 0 auto;">
-                    <div class="info-card-with-image">
-                        <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=300&h=300&fit=crop" alt="Čisté zázemí">
-                        <div class="card-content">
-                            <h3>Sanitární zařízení</h3>
-                            <p>Náš tábor disponuje několika kohoutky s tekoucí vodou pro denní hygienu. Vyhřívané sprchy jsou k dispozici ve vyhrazeném stanu. Dřevěné latríny v nedalekém háji slouží jako toalety.</p>
+                <div class="info-grid">
+                    <div class="info-box">
+                        <div class="info-box-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="12" y1="18" x2="12" y2="12"/>
+                                <line x1="9" y1="15" x2="15" y2="15"/>
+                            </svg>
                         </div>
+                        <h4>Sanitární zařízení</h4>
+                        <p>Několik kohoutků s tekoucí vodou, vyhřívané sprchy ve vyhrazeném stanu a dřevěné latríny v nedalekém háji.</p>
                     </div>
-
-                    <div class="info-card">
-                        <h3>Kvalita vody</h3>
-                        <p>Čerstvá voda je pravidelně dovážena z nedalekých Heraltic a splňuje všechny hygienické předpisy. Naše zařízení podstupují každoroční zdravotní kontroly pro zajištění nejvyšších standardů čistoty.</p>
+                    <div class="info-box">
+                        <div class="info-box-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                            </svg>
+                        </div>
+                        <h4>Kvalita vody</h4>
+                        <p>Čerstvá voda je pravidelně dovážena z nedalekých Heraltic a splňuje všechny hygienické předpisy.</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-box-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M9 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <h4>Zdravotní kontroly</h4>
+                        <p>Naše zařízení podstupují každoroční zdravotní kontroly pro zajištění nejvyšších standardů čistoty.</p>
                     </div>
                 </div>
             </div>
@@ -141,24 +183,31 @@
         <!-- Meals Section -->
         <div class="section">
             <div class="container">
-                <h2 class="section-title">Stravování a výživa</h2>
+                <h2 class="section-title">Stravování</h2>
                 <div class="section-divider"></div>
                 
-                <div class="image-grid" style="max-width: 800px; margin: 0 auto 2rem;">
-                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop" alt="Vaření na táboře">
-                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop" alt="Zdravé jídlo">
-                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop" alt="Výživná jídla">
-                </div>
-                
-                <div style="max-width: 800px; margin: 0 auto;">
-                    <div class="info-card">
-                        <h3>Denní strava</h3>
-                        <p>Naše táborová kuchyně servíruje 5 výživných jídel denně, připravených zkušenými kuchařkami z čerstvých surovin. Jídelna v našem vojenském hangáru poskytuje pohodlný prostor pro stolování.</p>
+                <div class="detail-section detail-section-reverse">
+                    <div class="detail-image">
+                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop" alt="Táborová strava">
                     </div>
+                    <div class="detail-content">
+                        <h3>🍽️ 5 jídel denně</h3>
+                        <ul class="detail-list">
+                            <li><strong>Snídaně</strong> - vydatný start do dne</li>
+                            <li><strong>Svačina</strong> - dopolední občerstvení</li>
+                            <li><strong>Oběd</strong> - hlavní jídlo dne</li>
+                            <li><strong>Svačina</strong> - odpolední občerstvení</li>
+                            <li><strong>Večeře</strong> - teplé jídlo na závěr dne</li>
+                        </ul>
+                        <p class="detail-note">Jídelna se nachází v našem vojenském hangáru, který poskytuje pohodlný prostor pro stolování.</p>
+                    </div>
+                </div>
 
-                    <div class="info-card">
-                        <h3>Služby v kuchyni</h3>
-                        <p>Jako součást táborového zážitku se děti střídají ve službách v kuchyni, učí se cenným dovednostem jako je týmová práce a zodpovědnost při pomoci s úkoly přiměřenými jejich věku.</p>
+                <div class="highlight-box">
+                    <div class="highlight-icon">👨‍🍳</div>
+                    <div class="highlight-content">
+                        <h4>Služby v kuchyni</h4>
+                        <p>Jako součást táborového zážitku se děti střídají ve službách v kuchyni. Učí se cenným dovednostem jako je týmová práce a zodpovědnost.</p>
                     </div>
                 </div>
             </div>
@@ -170,21 +219,32 @@
                 <h2 class="section-title">Lokalita a prostředí</h2>
                 <div class="section-divider"></div>
                 
-                <div class="image-grid" style="max-width: 800px; margin: 0 auto 2rem;">
-                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop" alt="Lesní scenérie">
-                    <img src="https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=400&h=300&fit=crop" alt="Koupání v rybníku">
-                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=400&h=300&fit=crop" alt="Cesta přírodou">
+                <div class="photo-grid">
+                    <div class="photo-card">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop" alt="Lesní scenérie">
+                        <div class="photo-card-overlay">
+                            <h3>Lesy</h3>
+                            <p>Obklopeni nádhernou přírodou Vysočiny</p>
+                        </div>
+                    </div>
+                    <div class="photo-card">
+                        <img src="https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=600&h=400&fit=crop" alt="Koupání">
+                        <div class="photo-card-overlay">
+                            <h3>Rybník</h3>
+                            <p>Nedaleko rybník na koupání a vodní hry</p>
+                        </div>
+                    </div>
+                    <div class="photo-card">
+                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&h=400&fit=crop" alt="Příroda">
+                        <div class="photo-card-overlay">
+                            <h3>Louka</h3>
+                            <p>Situováni na louce asi 1 km za Hrutovem</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div style="max-width: 800px; margin: 0 auto;">
-                    <div class="info-card">
-                        <h3>Přírodní prostředí</h3>
-                        <p>Náš tábor se nachází v krásném kraji Vysočina, asi 1 km za vesnicí Hrutov. Situovaný na louce obklopené lesy nabízí rozmanité outdoorové aktivity. Nedaleko je rybník pro koupání a oblast není ohrožena povodněmi.</p>
-                    </div>
-                    
-                    <div class="btn-center">
-                        <a href="kontaktujte-nas.html" class="btn">Máte otázky? Kontaktujte nás</a>
-                    </div>
+                <div class="btn-center" style="margin-top: 3rem;">
+                    <a href="kontaktujte-nas.html" class="btn">Máte otázky? Kontaktujte nás</a>
                 </div>
             </div>
         </div>
