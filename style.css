@@ -3,8 +3,8 @@
    🔥 PREMIUM PROFESSIONAL DESIGN 🔥
    =========================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Fredoka:400,500,600,700&subset=latin,latin-ext&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&subset=latin,latin-ext&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
 /* Reset */
 * {
@@ -21,7 +21,7 @@ html {
    ANIMATED GRADIENT MESH BACKGROUND
    ============================================ */
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.7;
     color: #333;
     background: linear-gradient(135deg, #fff9f0 0%, #fff 25%, #fff5eb 50%, #fff 75%, #fff9f0 100%);
@@ -185,7 +185,7 @@ body::after {
 }
 
 .logo-text h1 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.6rem;
     line-height: 1.2;
     margin: 0;
@@ -344,7 +344,7 @@ body::after {
 }
 
 .hero-banner h1 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
     font-weight: 400;
@@ -447,7 +447,7 @@ body::after {
 
 .countdown-content h2 {
     color: #fff;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
@@ -477,7 +477,7 @@ body::after {
 }
 
 .countdown-number {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 2.2rem;
     color: #fff;
     display: block;
@@ -513,7 +513,7 @@ body::after {
 
 
 .section-title {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 2.5rem;
     background: linear-gradient(135deg, #2c3e50 0%, #ff6b35 50%, #ff9b24 100%);
     background-size: 200% auto;
@@ -621,7 +621,7 @@ body::after {
 }
 
 .photo-card h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
     font-weight: 400;
@@ -685,7 +685,7 @@ body::after {
 
 /* All text in page-content is LEFT aligned for consistency */
 .page-content h1 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 2.2rem;
     color: #2c3e50;
     margin-bottom: 1.5rem;
@@ -694,7 +694,7 @@ body::after {
 }
 
 .page-content h2 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.5rem;
     color: #2c3e50;
     margin: 3rem 0 1rem;
@@ -710,7 +710,7 @@ body::after {
 }
 
 .page-content h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.2rem;
     color: #ff9b24;
     margin: 1.5rem 0 0.75rem;
@@ -773,7 +773,7 @@ body::after {
 }
 
 .stat-number {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 3rem;
     background: linear-gradient(135deg, #ff6b35 0%, #ff9b24 100%);
     -webkit-background-clip: text;
@@ -804,7 +804,7 @@ body::after {
     background: linear-gradient(135deg, #ff6b35 0%, #ff9b24 50%, #ffb347 100%);
     color: #fff;
     text-decoration: none;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-weight: 400;
     font-size: 1.1rem;
     border-radius: 50px;
@@ -926,7 +926,7 @@ body::after {
 
 .contact-info h3 {
     color: #fff;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 1.3rem;
@@ -977,12 +977,12 @@ body::after {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.5rem;
 }
 
 .team-card h4 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     color: #2c3e50;
     margin-bottom: 0.25rem;
     font-size: 1rem;
@@ -1026,7 +1026,7 @@ body::after {
 }
 
 .image-break-overlay h2 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 2rem;
     margin-bottom: 0.75rem;
     font-weight: 400;
@@ -1212,7 +1212,7 @@ body::after {
 }
 
 .address-card h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.4rem;
     color: #333;
     margin-bottom: 0.25rem;
@@ -1325,7 +1325,7 @@ body::after {
 }
 
 .category-header h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.25rem;
     color: #333;
     margin: 0;
@@ -1510,7 +1510,7 @@ body::after {
 }
 
 .feature-card h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.4rem;
     color: #333;
     margin-bottom: 1rem;
@@ -1526,7 +1526,7 @@ body::after {
     position: absolute;
     bottom: -20px;
     right: -10px;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 6rem;
     font-weight: 700;
     color: rgba(255, 155, 36, 0.08);
@@ -1584,7 +1584,7 @@ body::after {
 }
 
 .detail-content h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.6rem;
     color: #333;
     margin-bottom: 1.5rem;
@@ -1661,7 +1661,7 @@ body::after {
 }
 
 .info-box h4 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.15rem;
     color: #333;
     margin-bottom: 0.75rem;
@@ -1692,7 +1692,7 @@ body::after {
 }
 
 .highlight-content h4 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
@@ -1742,7 +1742,7 @@ body::after {
 }
 
 .story-year {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 5rem;
     font-weight: 700;
     color: rgba(255, 155, 36, 0.15);
@@ -1751,7 +1751,7 @@ body::after {
 }
 
 .story-content h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 1.5rem;
@@ -1812,7 +1812,7 @@ body::after {
 }
 
 .stat-number-large {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1;
@@ -1862,7 +1862,7 @@ body::after {
 }
 
 .cert-card h3 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.3rem;
     color: #333;
     margin-bottom: 1rem;
