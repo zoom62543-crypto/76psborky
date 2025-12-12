@@ -1,8 +1,8 @@
 /**
  * Countdown Timer
- * Camp starts August 1st, 2026
+ * Camp starts July 26th, 2026
  */
-const CAMP_START_DATE = '2026-08-01 00:00:00';
+const CAMP_START_DATE = '2026-07-26 00:00:00';
 
 (function() {
     'use strict';
@@ -17,7 +17,7 @@ const CAMP_START_DATE = '2026-08-01 00:00:00';
         if (distance < 0) {
             const countdownEl = document.getElementById('countdown');
             if (countdownEl) {
-                countdownEl.innerHTML = '<p style="font-size: 1.2rem; font-weight: 600; color: #fff;">Camp is happening now!</p>';
+                countdownEl.innerHTML = '<p style="font-size: 1.2rem; font-weight: 600; color: #fff;">Tábor právě probíhá!</p>';
             }
             return;
         }
